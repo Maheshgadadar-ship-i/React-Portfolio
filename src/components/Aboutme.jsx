@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import ProfileLogo from '/src/assets/mahesh-removebg-preview.png';
 import './Aboutme.css';
 
 export default function Aboutme() {
@@ -51,7 +52,7 @@ export default function Aboutme() {
                                 <span className="about__idcard-type">Developer ID</span>
                             </div>
                             <div className="about__idcard-photo-wrap">
-                                <img src="./src/assets/mahesh-removebg-preview.png" alt="Mahesh P Gadadar" className="about__idcard-photo" />
+                                <img src={ProfileLogo} alt="Mahesh P Gadadar" className="about__idcard-photo" />
                             </div>
                             <div className="about__idcard-info">
                                 <h3 className="about__idcard-name">Mahesh P Gadadar</h3>

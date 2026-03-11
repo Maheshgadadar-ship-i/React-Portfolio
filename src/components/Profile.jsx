@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ProfileLogo from '/src/assets/mahesh-removebg-preview.png';
 import './Profile.css';
 
 export default function Profile() {
@@ -98,7 +99,7 @@ export default function Profile() {
                         <div className="hero__card-glow"></div>
                         <div className="hero__card-border"></div>
                         <img
-                            src="./src/assets/mahesh-removebg-preview.png"
+                            src={ProfileLogo}
                             alt="Mahesh P Gadadar"
                             className="hero__card-photo"
                         />
